@@ -1,0 +1,83 @@
+html,
+body {
+    font-family: Arial;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+    background-color: #DEE2E6;
+    color: #0B0B0B;
+    margin: 0.5rem;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, a {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    background-color: #0B0B0B;
+    color: #DEE2E6;
+}
+
+
+/* ------------------------TOP SECTION------------------------ */
+
+.topSection {
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle {
+    align-self: flex-end;
+    text-align: right;
+}
+
+.middle > nav > ul {
+    list-style: none;
+}
+
+.middle > nav > ul > li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: flex-end;
+}
+
+.description {
+    text-align: justify;
+    max-width: 80%;
+}
+
+.icon {
+    font-size: 2.5rem;
+}
+
+
+/* ------------------------------------------------ */
