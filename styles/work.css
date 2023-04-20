@@ -1,0 +1,11 @@
+.nameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectImage {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+}
