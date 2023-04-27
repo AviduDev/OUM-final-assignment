@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/work.css" />
     <script src="main.js" defer></script>
-    <title>works</title>
+    <title>Works - Explore Design and Development Works</title>
   </head>
-  <body>
+  <body onscroll="rotate()">
     <main>
       <!-- --------------------top section-------------------- -->
-      <sec class="topSection">
+      <section class="topSection">
         <!-- --------------------top heading-------------------- -->
         <div class="top">
           <h1>work</h1>
@@ -25,7 +25,7 @@
                 <a class="navLink" href="/">home</a>
               </li>
               <li class="navItem">
-                <a class="navLink" href="/work.html">work</a>
+                <a class="navLink workLink" href="/work.html">work</a>
               </li>
               <li class="navItem">
                 <a class="navLink" href="/about.html">about</a>
@@ -38,22 +38,27 @@
         </header>
         <!-- --------------------bottom-------------------- -->
         <div class="bottom">
-          <div class="icon">🡦</div>
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Dignissimos consequatur nemo consectetur voluptas rerum eos!
-          </div>
+          <div class="icon workIcon">🡥</div>
+          <p class="description">
+            Explore more work done by avidu for his personal and client's projects.
+          </p>
         </div>
-      </sec>
+      </section>
 
       <!-- -------------------------------------------------------- -->
 
       <!-- ------------------content------------------------------- -->
 
-      <sec class="works">
+      <section class="works">
         <!-- ---------------------------------work 1--------------------------------- -->
-        <div class="work">
-          <img class="projectImage" src="https://res.cloudinary.com/avidu/image/upload/v1681990782/project2_ghrm4v.png" alt="project 1" />
+        <div class="work w1">
+          <div class="prjImgCtn">
+            <img
+              class="projectImage i1"
+              src="https://res.cloudinary.com/avidu/image/upload/v1681990782/project2_ghrm4v.png"
+              alt="project 1"
+            />
+          </div>
           <div class="nameContainer">
             <p>Store website design</p>
             <p>2022</p>
@@ -67,8 +72,14 @@
 
         <!-- ---------------------------------work 2--------------------------------- -->
 
-        <div class="work">
-          <img class="projectImage" src="https://res.cloudinary.com/avidu/image/upload/v1681990790/project5_pds3ic.png" alt="project 1" />
+        <div class="work w2">
+          <div class="prjImgCtn">
+            <img
+              class="projectImage i2"
+              src="https://res.cloudinary.com/avidu/image/upload/v1681990790/project5_pds3ic.png"
+              alt="project 1"
+            />
+          </div>
           <div class="nameContainer">
             <p>Business card design</p>
             <p>2022</p>
@@ -81,8 +92,14 @@
         </div>
         <!-- ---------------------------------work 3--------------------------------- -->
 
-        <div class="work">
-          <img class="projectImage" src="https://res.cloudinary.com/avidu/image/upload/v1681990784/project1_keh8iy.png" alt="project 1" />
+        <div class="work w3">
+          <div class="prjImgCtn">
+            <img
+              class="projectImage i3"
+              src="https://res.cloudinary.com/avidu/image/upload/v1681990784/project1_keh8iy.png"
+              alt="project 1"
+            />
+          </div>
           <div class="nameContainer">
             <p>Social media post design</p>
             <p>2022</p>
@@ -95,9 +112,14 @@
         </div>
         <!-- ---------------------------------work 4--------------------------------- -->
 
-
-        <div class="work">
-          <img class="projectImage" src="https://res.cloudinary.com/avidu/image/upload/v1681990791/project4_hl6muo.png" alt="project 1" />
+        <div class="work w4">
+          <div class="prjImgCtn">
+            <img
+              class="projectImage i4"
+              src="https://res.cloudinary.com/avidu/image/upload/v1681990791/project4_hl6muo.png"
+              alt="project 1"
+            />
+          </div>
           <div class="nameContainer">
             <p>Social media post design</p>
             <p>2022</p>
@@ -110,8 +132,14 @@
         </div>
         <!-- ---------------------------------work 5--------------------------------- -->
 
-        <div class="work">
-          <img class="projectImage" src="https://res.cloudinary.com/avidu/image/upload/v1681990781/project3_kd2snl.jpg" alt="project 1" />
+        <div class="work w5">
+          <div class="prjImgCtn">
+            <img
+              class="projectImage i5"
+              src="https://res.cloudinary.com/avidu/image/upload/v1681990781/project3_kd2snl.jpg"
+              alt="project 1"
+            />
+          </div>
           <div class="nameContainer">
             <p>Online store design</p>
             <p>2021</p>
@@ -124,7 +152,9 @@
         </div>
 
         <!-- ---------------------------------------------------------------------------- -->
-      </sec>
+      </section>
     </main>
+
+    <!-- ----------------------- -->
   </body>
 </html>

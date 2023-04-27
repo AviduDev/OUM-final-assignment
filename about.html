@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     <script src="main.js" defer></script>
-    <title>About</title>
+
+    <title>About - Learn More About Avidu</title>
   </head>
-  <body>
+  <body onscroll="rotate()">
     <main>
       <!-- --------------------top section-------------------- -->
-      <sec class="topSection">
+      <section class="topSection">
         <!-- --------------------top heading-------------------- -->
         <div class="top">
           <h1>about</h1>
@@ -24,7 +26,7 @@
                 <a class="navLink" href="/">home</a>
               </li>
               <li class="navItem">
-                <a class="navLink" href="/work.html">work</a>
+                <a class="navLink workLink" href="/work.html">work</a>
               </li>
               <li class="navItem">
                 <a class="navLink" href="/about.html">about</a>
@@ -37,13 +39,114 @@
         </header>
         <!-- --------------------bottom-------------------- -->
         <div class="bottom">
-          <div class="icon">🡦</div>
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Dignissimos consequatur nemo consectetur voluptas rerum eos!
-          </div>
+          <div class="icon workIcon">🡥</div>
+          <p class="description">
+            Avidu is a creative website designer and front-end developer. Who
+            uses modern technologies to create best possible experience to the
+            user and cost effectiveness to the client.
+          </p>
         </div>
-      </sec>
+        <!-- --------------------------------------------- -->
+      </section>
+
+      <section>
+        <!-- ---------------content----------------------- -->
+
+        <!-- image -->
+        <figure class="profileImg">
+          <img
+            src="https://res.cloudinary.com/avidu/image/upload/v1676927730/Avidu_Web-_Designer_and_Front_end_Developer_from_Sri_Lanka-WEB_zk9qoy.jpg"
+            alt="Image of Avidu"
+          />
+          <figcaption>Avidu Sampath</figcaption>
+        </figure>
+      </section>
+
+      <!-- -------------------------------------------------------------------- -->
+
+      <section>
+        <!-- experience -->
+        <h2>experience</h2>
+
+        <!-- ------------------------------------------- -->
+        <table class="experience">
+          <tr class="row">
+            <td class="year">2022</td>
+            <td class="data">
+              <p>
+                <b>Freelance web designer and developer</b> <br />
+                Independent
+              </p>
+            </td>
+          </tr>
+
+          <!-- --------------------------- -->
+          <tr class="row">
+            <td class="year">2021</td>
+            <td class="data">
+              <p>
+                <b>Graphic Designer</b> <br />
+                Okkoma Co.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- ----------------------------------------------------------------- -->
+
+      <section>
+        <!-- education -->
+        <h2>education</h2>
+
+        <!-- ------------------------------------------- -->
+        <table class="experience">
+          <tr class="row">
+            <td class="year">2022</td>
+            <td class="data">
+              <p>
+                <b>Certificate in Web Design</b> <br />
+                Moratuwa open university
+              </p>
+            </td>
+          </tr>
+
+          <!-- --------------------------- -->
+          <tr class="row">
+            <td class="year">2019</td>
+            <td class="data">
+              <p>
+                <b>Diploma in Computer Application</b> <br />
+                Sarvodaya Foundation
+              </p>
+            </td>
+          </tr>
+
+          <!-- --------------------------- -->
+          <tr class="row">
+            <td class="year">2018</td>
+            <td class="data">
+              <p>
+                <b>GCE Advanced Level</b> <br />
+                Kumbukgete National School
+              </p>
+            </td>
+          </tr>
+
+          <!-- --------------------------- -->
+          <tr class="row">
+            <td class="year">2013</td>
+            <td class="data">
+              <p>
+                <b>GCE Ordinary Level</b> <br />
+                Kumbukgete National School
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
     </main>
+
+    <!-- ----------------------- -->
   </body>
 </html>

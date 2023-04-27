@@ -4,8 +4,42 @@
     justify-content: space-between;
 }
 
+.work {
+    margin: 3rem 0 0 0;
+}
+
 .projectImage {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center;
+    transition: all 900ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.prjImgCtn {
+    overflow: hidden;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+
+    .work {
+        max-width: 50%;
+    }
+    .w2, .w4 {
+      align-self: flex-end;  
+    }
+}
+
+@media (min-width: 992px) {
+
+    .w2, .w4 {
+      align-self: flex-end;  
+    }
 }

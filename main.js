@@ -1,31 +1,23 @@
-// ---------------Highligh the current nav link-------------------
+// Highlighting current nav links
 
-// document.querySelectorAll('.navLink').forEach
-// (link => {
-//   if(link.href === window.location.href){
-//     link.setAttribute('aria-current', 'page')
-//   }
-// })
-
-
-// const activePage = window.location.pathname;
-
-// const navLinks = document.querySelectorAll('nav a').forEach(
-//   link => {
-//     if(link.href.includes(`${activePage}`)){
-//       link.classList.add('active');
-//     }
-//   }
-// )
-
-
-const navEls = document.querySelectorAll('.navLink');
+const navEls = document.querySelectorAll(".navLink");
 const windowPathname = window.location.pathname;
 
-navEls.forEach(navEl => {
+navEls.forEach((navEl) => {
   const navLinkPathname = new URL(navEl.href).pathname;
 
   if (windowPathname === navLinkPathname) {
-    navEl.classList.add('active');
+    navEl.classList.add("active");
   }
 });
+
+// Function to rotate Arrow when there are more content
+
+const wLink = document.querySelector('.workLink');
+const wIcon = document.querySelector(".workIcon");
+
+// wLink.addEventListener("click", function(){ alert("Hello World!"); });
+
+function rotate() {
+  wIcon.style.transform = "rotate(90deg)";
+};
